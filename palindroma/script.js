@@ -7,4 +7,3 @@ function isPalindroma (stringa) {
     }
     return wordTest === stringa;  
 }
-
