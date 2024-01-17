@@ -18,8 +18,8 @@ Consigli del giorno
   - la funziona ritornera il confronto
 
 - richiamare la funzione dentro la condizione di un IF
-  - IF True dico all utente 'la parola e palindroma'
-    - ELSE dico all utente 'la parola non e palindroma'  
+  - IF True dico all utente 'la parola è palindroma'
+    - ELSE dico all utente 'la parola non è palindroma'  
 
   
 
