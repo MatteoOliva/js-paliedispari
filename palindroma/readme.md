@@ -14,12 +14,12 @@ Consigli del giorno
   - creare una variabile vuota
   - convertire la parola fornita dall utente ( stringa ) in un array
   - creare un ciclo FOR in cui l indice parte dalla lunghezza dell array -1 e scorrerlo al contrario i >= 0 i--
-  - costruire la stringa della parola polindroma prendendo le lettere fornite nella ripetizione del ciclo e metterle nella variabile vuota
+  - costruire la stringa della parola palindroma prendendo le lettere fornite nella ripetizione del ciclo e metterle nella variabile vuota
   - la funziona ritornera il confronto
 
 - richiamare la funzione dentro la condizione di un IF
-  - IF True dico all utente 'la parola e polindroma'
-    - ELSE dico all utente 'la parola non e polidroma'  
+  - IF True dico all utente 'la parola e palindroma'
+    - ELSE dico all utente 'la parola non e palindroma'  
 
   
 
