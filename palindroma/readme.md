@@ -16,13 +16,10 @@ Consigli del giorno
   - creare un ciclo FOR in cui l indice parte dalla lunghezza dell array -1 e scorrerlo al contrario i >= 0 i--
   - costruire la stringa della parola polindroma prendendo le lettere fornite nella ripetizione del ciclo e metterle nella variabile vuota
   - la funziona ritornera il confronto
-  
-  - SE la funzione con argomento (parola dell utente)
-    - stampo 'la parola e polindroma'
-  - ELSE
-    - stampo 'la parola non e polindroma'
 
-  
+- richiamare la funzione dentro la condizione di un IF
+  - IF True dico all utente 'la parola e polindroma'
+    - ELSE dico all utente 'la parola non e polidroma'  
 
   
 
