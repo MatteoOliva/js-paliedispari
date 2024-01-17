@@ -1,5 +1,4 @@
-
-
+let userWord = prompt('inserisci una parola');
 function isPalindroma (stringa) {
     let wordTest = ''; 
     let userParolasplit = stringa.split('');
@@ -8,5 +7,4 @@ function isPalindroma (stringa) {
     }
     return wordTest === stringa;  
 }
-
 
