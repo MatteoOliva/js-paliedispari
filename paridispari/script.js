@@ -1,6 +1,6 @@
 // - chiedere all'utente di scegliere pari o dispari con un prompt
 
-const sceltaUtente = prompt('Giochiamo ad un gioco : pari o dispari?');
+let sceltaUtente = prompt('Giochiamo ad un gioco : pari o dispari?');
 sceltaUtente.toLowerCase().trim();
 
 while (sceltaUtente !== 'pari' && sceltaUtente !== 'dispari') {
@@ -11,8 +11,12 @@ while (sceltaUtente !== 'pari' && sceltaUtente !== 'dispari') {
 
 
 // - chiedere di inserire un numero da 1 a 5 con un prompt
-let numeroScelto = prompt('scegli un numero da 1 a 5');
-console.log(numeroScelto)
+let numeroScelto = parseInt(prompt('scegli un numero da 1 a 5'));
+while ( numeroScelto > 5 || numeroScelto <= 0) {
+numeroScelto = parseInt(prompt('scegli un numero da 1 a 5'));
+}
+
+
 
 
 
