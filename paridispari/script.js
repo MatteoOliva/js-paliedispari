@@ -26,7 +26,7 @@ console.log(pcNumber);
 
 
 function generateNumber(min, max) {
-        
+
   return Math.floor(Math.random() * max + min ); 
 }
 
@@ -34,6 +34,17 @@ function generateNumber(min, max) {
 let somma = numeroScelto + pcNumber;
 
 // - verificare se la somma dei due numeri è pari o dispari usando una funzione
+
+let isPari = checkpari(somma);
+console.log(isPari);
+
+function checkpari(number) {
+    if(number % 2 == 0) {
+        return true;
+    } 
+    return false;
+
+}
 
 
 // - SE la verifica risulta uguale al valore di quello che ha dichiarato l'utente
