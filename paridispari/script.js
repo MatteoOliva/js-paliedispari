@@ -17,9 +17,26 @@ numeroScelto = parseInt(prompt('scegli un numero da 1 a 5'));
 }
 
 
-// - generare un numero random da 1 a 5 per il computer tramite una funzione
+// - generare un numero random da 1 a 5 per il computer usando una funzione
+
+
+let pcNumber = generateNumber(1, 5);
+console.log(pcNumber);
+
+
+
+function generateNumber(min, max) {
+        
+  return Math.floor(Math.random() * max + min ); 
+}
+
 // - sommare i due numeri
-// - verificare se la somma dei due numeri è pari o dispari tramite una funzione
+let somma = numeroScelto + pcNumber;
+
+// - verificare se la somma dei due numeri è pari o dispari usando una funzione
+
+
 // - SE la verifica risulta uguale al valore di quello che ha dichiarato l'utente
 //     - stampiamo 'l'utente ha vinto'
 //     - ELSE stampiamo 'ha vinto il computer
+
