@@ -17,10 +17,6 @@ numeroScelto = parseInt(prompt('scegli un numero da 1 a 5'));
 }
 
 
-
-
-
-
 // - generare un numero random da 1 a 5 per il computer tramite una funzione
 // - sommare i due numeri
 // - verificare se la somma dei due numeri è pari o dispari tramite una funzione
