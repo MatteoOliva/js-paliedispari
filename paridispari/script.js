@@ -1,12 +1,15 @@
 // - chiedere all'utente di scegliere pari o dispari con un prompt
 
-let sceltaUtente = prompt('Giochiamo ad un gioco : pari o dispari?');
-sceltaUtente.toLowerCase().trim();
+let sceltaUtente = prompt('Giochiamo ad un gioco : pari o dispari?').toLowerCase().trim();
+
+console.log(sceltaUtente)
 
 while (sceltaUtente !== 'pari' && sceltaUtente !== 'dispari') {
-    sceltaUtente = prompt('scegli pari o dispari');
-    sceltaUtente.toLowerCase().trim();
+    sceltaUtente = prompt('scegli pari o dispari').toLowerCase().trim();;
+    
 } 
+
+
 
 
 
@@ -48,6 +51,14 @@ function checkpari(number) {
 
 
 // - SE la verifica risulta uguale al valore di quello che ha dichiarato l'utente
+if(isPari == true && sceltaUtente === 'pari') {
 //     - stampiamo 'l'utente ha vinto'
-//     - ELSE stampiamo 'ha vinto il computer
+alert('hai vinto');
+} //     - ELSE stampiamo 'ha vinto il computer
+else {
+alert('ha vinto il computer');
+}
+
+
+
 
