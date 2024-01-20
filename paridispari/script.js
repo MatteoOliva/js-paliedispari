@@ -3,14 +3,18 @@
 const sceltaUtente = prompt('Giochiamo ad un gioco : pari o dispari?');
 sceltaUtente.toLowerCase().trim();
 
-while (sceltaUtente !== 'pari' || sceltaUtente !== 'dispari') {
+while (sceltaUtente !== 'pari' && sceltaUtente !== 'dispari') {
     sceltaUtente = prompt('scegli pari o dispari');
+    sceltaUtente.toLowerCase().trim();
 } 
-sceltaUtente.toLowerCase().trim();
 
 
 
 // - chiedere di inserire un numero da 1 a 5 con un prompt
+let numeroScelto = prompt('scegli un numero da 1 a 5');
+console.log(numeroScelto)
+
+
 
 
 // - generare un numero random da 1 a 5 per il computer tramite una funzione
